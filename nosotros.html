@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Equipo</title>
+    <link rel="shortcut icon" href="logo.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="estilos.css" type="text/css">
+    <a href="Index.html" class="btn-flotante">IR A INICIO</a>
+</head>
+<header>
+    <div>
+        <br>
+        <h3>Universidad de Guadalajara</h3>
+        <h1>Equipo de trabajo</h1>
+        <hr class="barrabanner">
+        <h4>
+            ¿Quiénes somos? <br> ¿Qué hacemos?
+        </h4>
+    </div>
+</header>
+<hr class="hr3">
+
+<body>
+
+    <div class="centrar">
+        <h3>EXPROFIN 2023</h3>
+        <img src="galeria/Foto grupal.jpg" alt="" width="800px">
+    </div>
+    <br>
+    <table>
+        <div class="centrar2">
+            <strong>INTEGRANTES</strong>
+        </div>
+        <tr>
+            <td class="contImg">
+                <img src="Integrante1.jpg" alt="Integrante1" class="persona">
+            </td>
+            <td>
+                Lorem ipsum dolor sit. <br>
+                000000000 <br>
+                Ingeniería Química <br>
+                Estudiante de sexto semestre
+            </td>
+        </tr>
+        <tr>
+            <td class="contImg">
+                <img src="Integrante2.jpg" alt="Integrante2" class="persona">
+            </td>
+            <td>
+                Lorem, ipsum dolor. <br>
+                000000000 <br>
+                Ingeniería Química <br>
+                Estudiante de sexto semestre
+            </td>
+        </tr>
+        <tr>
+            <td class="contImg">
+                <img src="Integrante3.jpg" alt="Integrante3" class="persona">
+            </td>
+            <td>
+                Lorem ipsum dolor sit. <br>
+                000000000 <br>
+                Ingeniería Química <br>
+                Estudiante de cuarto semestre
+            </td>
+        </tr>
+        <tr>
+            <td class="contImg">
+                <img src="Integrante4.jpg" alt="Integrante4" class="persona">
+            </td>
+            <td>
+                Lorem ipsum dolor sit. <br>
+                00000000 <br>
+                Ingeniería Química <br>
+                Estudiante de primer semestre
+            </td>
+        </tr>
+        <tr>
+            <td class="contImg">
+                <img src="Integrante5.jpg" alt="Integrante5" class="persona">
+            </td>
+            <td>
+                Lorem ipsum dolor sit. <br>
+                00000000 <br>
+                Ingeniería Química<br>
+                Estudiante de primer semestre
+            </td>
+        </tr>
+        <tr>
+            <td class="contImg">
+                <img src="Integrante6.jpg" alt="Integrante6" class="persona">
+            </td>
+            <td>
+                Lorem ipsum dolor sit. <br>
+                000000000 <br>
+                Ingeniería Industrial <br>
+                Estudiante de séptimo semestre
+            </td>
+        </tr>
+        <tr>
+            <td class="contImg">
+                <img src="Alex Jimenez.jpg" alt="Alex" class="persona">
+            </td>
+            <td>
+                Alejandro Jiménez Jiménez <br>
+                000000000 <br>
+                Ingeniería en Computación <br>
+                Estudiante de quinto semestre, encargado del diseño y estructura de la página web
+            </td>
+        </tr>
+        <tr>
+            <td class="contImg">
+                <img src="Integrante7.jpg" alt="Integrante7" class="persona">
+            </td>
+            <td>
+                Lorem ipsum dolor sit.<br>
+                000000000 <br>
+                Licenciatura en Contabilidad Pública <br>
+                Estudiante de séptimo semestre
+            </td>
+        </tr>
+        <tr>
+            <td class="contImg">
+                <img src="Integrante8.jpg" alt="Integrante8" class="persona">
+            </td>
+            <td>
+                Lorem ipsum dolor sit. <br>
+                00000000 <br>
+                Licenciatura en Administración <br>
+                Estudiante de primer semestre
+            </td>
+        </tr>
+        <tr>
+            <td class="contImg">
+                <img src="Integrante9.jpg" alt="Integrante9" class="persona">
+            </td>
+            <td>
+                Lorem ipsum dolor sit. <br>
+                Lorem ipsum dolor sit solor amet. <br>
+                Lorem, ipsum dolor.
+            </td>
+        </tr>
+    </table>
+    <br> <br>
+    <table>
+        <div class="centrar2">
+            <strong>PATROCINADORES</strong>
+        </div>
+        <tr>
+            <td class="contImg">
+                <img src="Patrocinador1.jpg" alt="Patrocinador1" class="persona2">
+            </td>
+            <td>
+                Lorem, ipsum.<br>
+                Patrocinador Oficial
+            </td>
+        </tr>
+        <tr>
+            <td class="contImg">
+                <img src="Patrocinador2.jpg" alt="Patrocinador2" class="persona2">
+            </td>
+            <td>
+                Lorem, ipsum. <br>
+                Patrocinador Oficial
+            </td>
+        </tr>
+    </table>
+
+    <div id="footer"></div>
+    <script>
+
+        fetch("footer.html")
+            .then(response => response.text())
+            .then(html => {
+                document.getElementById("footer").innerHTML = html;
+            });
+    </script>
+
+</body>
+
+</html>

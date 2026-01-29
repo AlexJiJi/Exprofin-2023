@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galería</title>
+    <link rel="shortcut icon" href="logo.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="estilos.css" type="text/css">
+    <a href="Index.html" class="btn-flotante">IR A INICIO</a>
+</head>
+<header>
+    <div>
+        <br>
+        <h3>Universidad de Guadalajara</h3>
+        <h1>Galería</h1>
+        <hr class="barrabanner">
+        <h4>
+            Galería de fotos
+        </h4>
+    </div>
+</header>
+
+<body>
+    <hr class="hr3">
+    <div class="green">
+        <br>
+        <div class="fotosprincipales">
+            <div style="background-image: url('galeria/Foto25.jpg');"></div>
+            <div style="background-image: url('galeria/Foto6.jpg');"></div>
+            <div style="background-image: url('galeria/Foto19.jpg');"></div>
+            <div style="background-image: url('galeria/Foto20.jpg');"></div>
+            <div style="background-image: url('galeria/Foto4.jpg');"></div>
+            <div style="background-image: url('galeria/Foto10.jpg');"></div>
+            <div style="background-image: url('galeria/Foto8.jpg');"></div>
+            <div style="background-image: url('galeria/Foto12.jpg');"></div>
+            <div style="background-image: url('galeria/Foto13.jpg');"></div>
+            <div style="background-image: url('galeria/Foto3.jpg');"></div>
+            <div style="background-image: url('galeria/Foto24.jpg');"></div>
+        </div>
+        <br>
+    </div>
+    <div class="allpics">
+        <!-- Video principal del produto final -->
+        <div class="pic"><video src="galeria/Video1.mp4" class="galeriaV" controls muted autoplay
+                loop></video><br><em></em></div>
+        <div class="pic"><img src="galeria/Foto24grande.jpg" class="galeriaV"><br><em></em></div>
+        <br>
+
+        <!-- Preparacion ? -->
+        <div class="pic"><img src="galeria/Foto6.jpg" class="galeriaV"><br><em></em></div>
+        <div class="pic"><img src="galeria/Foto15.jpg" class="galeriaV"><br><em></em></div>
+        <div class="pic"><img src="galeria/Foto19.jpg" class="galeriaV"><br><em></em></div>
+        <div class="pic"><img src="galeria/Foto16.jpg" class="galeriaV"><br><em></em></div>
+        <br>
+        <!-- Pura maquina -->
+        <div class="pic"><img src="galeria/Foto21.jpg" class="galeriaV"><br><em></em></div>
+        <div class="pic"><img src="galeria/Foto22.jpg" class="galeriaV"><br><em></em></div>
+        <div class="pic"><img src="galeria/Foto23.jpg" class="galeriaV"><br><em></em></div>
+        <br>
+
+        <!-- botella-->
+        <div class="pic"><img src="galeria/Foto20.jpg" class="galeriaH"><br><em></em></div>
+        <br>
+
+        <!-- Fotos amarillo-cafe -->
+        <div class="pic"><img src="galeria/Foto4.jpg" class="galeriaV"><br><em></em></div>
+        <div class="pic"><img src="galeria/Foto11.jpg" class="galeriaH"><br><em></em></div>
+        <div class="pic"><img src="galeria/Foto5.jpg" class="galeriaV"><br><em></em></div>
+        <br>
+        <!-- Fotos guantes -->
+        <div class="pic"><img src="galeria/Foto12.jpg" class="galeriaV"><br><em></em></div>
+        <div class="pic"><img src="galeria/Foto17.jpg" class="galeriaV"><br><em></em></div>
+        <div class="pic"><img src="galeria/Foto13.jpg" class="galeriaV"><br><em></em></div>
+        <br>
+        <!-- Fotos verde -->
+        <div class="pic"><img src="galeria/Foto10.jpg" class="galeriaV"><br><em></em></div>
+        <div class="pic"><img src="galeria/Foto7.jpg" class="galeriaV"><br><em></em></div>
+        <br>
+
+        <!-- videos de verde a amarillo -->
+        <div class="pic"><video src="galeria/Video2.mp4" class="galeriaV" controls muted loop
+                autoplay></video><br><em></em></div>
+        <div class="pic"><video src="galeria/Video3.mp4" class="galeriaV" controls muted loop
+                autoplay></video><br><em></em></div>
+        <div class="pic"><video src="galeria/Video6.mp4" class="galeriaV" controls muted loop
+                autoplay></video><br><em></em></div>
+        <br>
+
+        <!-- hiperlapsos -->
+        <div class="pic"><video src="galeria/Video4.mp4" class="galeriaV" controls muted loop
+                autoplay></video><br><em></em></div>
+        <div class="pic"><video src="galeria/Video5.mp4" class="galeriaV" controls muted loop
+                autoplay></video><br><em></em></div>
+        <br>
+
+        <!-- Fotos amarillo -->
+        <div class="pic"><img src="galeria/Foto8.jpg" class="galeriaV"><br><em></em></div>
+        <div class="pic"><img src="galeria/Foto18.jpg" class="galeriaH"><br><em></em></div>
+        <div class="pic"><img src="galeria/Foto9.jpg" class="galeriaV"><br><em></em></div>
+        <br>
+
+        <!-- Fotos café -->
+        <div class="pic"><img src="galeria/Foto1.jpg" class="galeriaV"> <br><em></em>
+        </div>
+        <div class="pic"><img src="galeria/Foto2.jpg" class="galeriaH"><br><em></em>
+        </div>
+        <div class="pic"><img src="galeria/Foto3.jpg" class="galeriaV"><br><em></em></div>
+
+    </div>
+
+    <div id="footer"></div>
+    <script>
+
+        fetch("footer.html")
+            .then(response => response.text())
+            .then(html => {
+                document.getElementById("footer").innerHTML = html;
+            });
+    </script>
+
+</body>
+
+
+</html>
